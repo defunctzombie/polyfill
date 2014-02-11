@@ -3,44 +3,44 @@
 		"fill": "Window.prototype.matchMedia Element.prototype.matches.o Element.prototype.mutation"
 	}],
 	"Opera Mobile": [{
-		"min": "10",
-		"max": "12",
+		"min": "10.0.0",
+		"max": "12.0.0",
 		"fill": "Window.prototype.matchMedia"
 	}, {
 		"fill": "Element.prototype.matches.o"
 	}],
 	"Opera": [{
-		"only": "11.5",
+		"only": "11.5.0",
 		"fill": "Object.defineProperty Object.defineProperties"
 	}, {
-		"min": "11.5",
-		"max": "12.1",
+		"min": "11.5.0",
+		"max": "12.1.0",
 		"fill": "Window.prototype.matchMedia Element.prototype.matches.o Element.prototype.mutation"
 	}, {
-		"only": "15",
+		"only": "15.0",
 		"fill": "Navigator.prototype.geolocation"
 	}, {
-		"min": "15",
+		"min": "15.0",
 		"fill": "Element.prototype.matches.webkit Element.prototype.mutation.blink"
 	}],
 	"Android": [{
-		"min": "2.1",
-		"max": "2.3",
+		"min": "2.1.0",
+		"max": "2.3.0",
 		"fill": "Window.prototype.matchMedia"
 	}, {
 		"fill": "Element.prototype.matches.webkit Element.prototype.mutation"
 	}],
 	"BlackBerry": [{
-		"only": "7",
+		"only": "7.0",
 		"fill": "Window.prototype.matchMedia"
 	}, {
 		"fill": "Element.prototype.matches.webkit Element.prototype.mutation"
 	}],
-	"Chrome iOS": [{
+	"Chrome Mobile iOS": [{
 		"fill": "Element.prototype.matches.webkit Element.prototype.mutation"
 	}],
-	"Safari iOS": [{
-		"max": "4.3",
+	"Mobile Safari": [{
+		"max": "4.3.0",
 		"fill": "Object.defineProperty Object.defineProperties"
 	}, {
 		"fill": "Window.prototype.devicePixelRatio.iossafari6 Element.prototype.matches.webkit Element.prototype.mutation"
@@ -49,47 +49,47 @@
 		"fill": "Element.prototype.matches.webkit Element.prototype.mutation.blink"
 	}],
 	"Internet Explorer": [{
-		"min": "6",
-		"max": "7",
+		"min": "6.0.0",
+		"max": "7.0.0",
 		"fill": "Object.create.ie7 Object.defineProperty.ie7 Object.defineProperties Object.getPrototypeOf Object.keys Object.getOwnPropertyNames Date.prototype.toISOString Date.now Array.isArray Function.prototype.bind String.prototype.trim Array.prototype.every Array.prototype.filter Array.prototype.forEach Array.prototype.indexOf Array.prototype.lastIndexOf Array.prototype.map Array.prototype.reduce Array.prototype.reduceRight Array.prototype.some Window.polyfill.ie7 Window.prototype.base64 Window.prototype.devicePixelRatio.ie7 Window.prototype.DOMTokenList Window.prototype.Event.ie8 Window.prototype.Event.ie8.DOMContentLoaded Window.prototype.Event.hashchange Window.prototype.getComputedStyle.ie8 Window.prototype.JSON Window.prototype.localStorage.ie7 Window.prototype.matchMedia Window.prototype.viewport.ie7 Window.prototype.XMLHttpRequest.ie7 Window.prototype.XMLHttpRequest.ie8 Navigator.prototype.geolocation Element.prototype.classList.ie7 Element.prototype.matches Element.prototype.mutation Element.prototype.placeholder.ie7 Window.polyfill.ie7.init"
 	}, {
-		"only": "8",
+		"only": "8.0.0",
 		"fill": "Object.create Object.defineProperty.ie8 Object.defineProperties Object.getPrototypeOf Object.keys Object.getOwnPropertyNames Date.prototype.toISOString Date.now Array.isArray Function.prototype.bind String.prototype.trim Array.prototype.every Array.prototype.filter Array.prototype.forEach Array.prototype.indexOf Array.prototype.lastIndexOf Array.prototype.map Array.prototype.reduce Array.prototype.reduceRight Array.prototype.some Window.polyfill.ie8 Window.prototype.base64 Window.prototype.devicePixelRatio.ie8 Window.prototype.DOMTokenList Window.prototype.Event.ie8 Window.prototype.Event.ie8.DOMContentLoaded Window.prototype.getComputedStyle.ie8 Window.prototype.matchMedia Window.prototype.viewport Window.prototype.XMLHttpRequest.ie8 Navigator.prototype.geolocation HTMLDocument.prototype.head Element.prototype.classList Element.prototype.matches Element.prototype.mutation Element.prototype.placeholder Window.polyfill.ie8.init"
 	}, {
-		"min": "9",
-		"max": "10",
+		"min": "9.0.0",
+		"max": "10.0.0",
 		"fill": "Window.prototype.Event Window.prototype.CustomEvent Window.prototype.scroll HTMLDocument"
 	}, {
-		"only": "9",
+		"only": "9.0.0",
 		"fill": "Window.prototype.base64 Window.prototype.DOMTokenList Window.prototype.matchMedia Element.prototype.classList"
 	}, {
-		"min": "9",
+		"min": "9.0.0",
 		"fill": "Element.prototype.matches.ms Element.prototype.mutation"
 	}],
 	"Firefox": [{
-		"only": "3.6",
+		"only": "3.6.0",
 		"fill": "Object.create Object.defineProperty Object.defineProperties Object.getPrototypeOf Object.keys Object.getOwnPropertyNames Array.isArray Function.prototype.bind"
 	}, {
-		"min": "3.6",
-		"max": "5",
+		"min": "3.6.0",
+		"max": "5.0.0",
 		"fill": "Window.prototype.Event Window.prototype.CustomEvent Window.prototype.matchMedia Window.prototype.Event.firefox5"
 	}, {
-		"min": "3.6",
+		"min": "3.6.0",
 		"fill": "Element.prototype.matches.moz Element.prototype.mutation Window.prototype.Event.focus"
 	}],
 	"Safari": [{
-		"only": "4",
+		"only": "4.0.0",
 		"fill": "Array.isArray Object.create Object.defineProperty Object.defineProperties Object.getOwnPropertyNames Object.getPrototypeOf Object.keys Function.prototype.bind String.prototype.trim Window.polyfill.safari4 Window.prototype.DOMTokenList Window.prototype.Event Window.prototype.CustomEvent Window.prototype.Event.hashchange Navigator.prototype.geolocation HTMLDocument.prototype.head Element.prototype.classList"
 	}, {
-		"min": "5",
-		"max": "5.1",
+		"min": "5.0.0",
+		"max": "5.1.0",
 		"fill": "Function.prototype.bind"
 	}, {
-		"min": "4",
-		"max": "5",
+		"min": "4.0.0",
+		"max": "5.0.0",
 		"fill": "Window.prototype.matchMedia"
 	}, {
-		"min": "4",
+		"min": "4.0.0",
 		"fill": "Window.prototype.devicePixelRatio.safari6 Element.prototype.matches.webkit Element.prototype.mutation"
 	}]
 }
